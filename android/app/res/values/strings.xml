@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Milky Way Ediciones</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_modal_translucid">ModalTranslucid</string>
+    <string name="title_activity_main">Realidad Aumentada</string>
+    <string name="title_activity_principal">Bienvenido</string>
+    <string name="about_title">About</string>
+    <string name="about">Milky Way Ediciones es una editorial totalmente independiente creada por un pequeño grupo de personas que creemos profundamente en la historieta como arte, y sobre todo creemos en el talento sin fronteras, llevándonos a buscar obras sublimes por talentos nacientes, dentro y fuera de nuestro territorio, encontrando títulos de calidad de autores dedicados al arte narrativo con verdadera pasión. El objetivo es ofrecer variedad sin distinción de género ni estilo. Una editorial galáctica en su cometido, universal en su visión.</string>
+    <string name="social">Compartir</string>
+    <string name="title_activity_info_activty">Sobre la Editorial</string>
+    <string name="textView_information">Para iniciar la experiencia, apunta la cámara de tu móvil hacia la portada del comic luego de hacer tap sobre esta pantalla.</string>
+
+</resources>

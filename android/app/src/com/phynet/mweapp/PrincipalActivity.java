@@ -19,16 +19,22 @@ import android.content.Intent;
 @SuppressLint("SetJavaScriptEnabled")
 
 public class PrincipalActivity extends SherlockActivity implements OnClickListener{
-
+	
+	Button buttonStarted;
+	Button buttonInfo;
+	
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_principal);
-		
-				
-		Button buttonStarted = (Button) findViewById(R.id.buttonStart);
+		buttonStarted = (Button) findViewById(R.id.buttonStart);
+		buttonInfo = (Button) findViewById(R.id.buttonInformation);
 		//buttonStarted.getBackground().setColorFilter(new LightingColorFilter(0xFFFFFFFF, 0xFF3B62));
 		buttonStarted.setOnClickListener(this);
+		buttonInfo.setOnClickListener(this);
+		getSupportActionBar().hide();
+	
 	}
 
 	@Override
@@ -46,14 +52,30 @@ public class PrincipalActivity extends SherlockActivity implements OnClickListen
         return true;
     }
 
+   
+    
 	@Override
 	public void onClick(View v) {
-		Toast toast = Toast.makeText(getApplicationContext(), "Cargando...", Toast.LENGTH_SHORT);
-        toast.setGravity(Gravity.CENTER,0,0);
-        toast.show();
 		
-		startActivity(new Intent(this, AugmentedRealityActivity.class));
+		switch(v.getId()) {
+        	case R.id.buttonStart:
+        		buttonStarted.setBackgroundResource(R.drawable.button_state);
+        		
+        		Toast toast = Toast.makeText(getApplicationContext(), "Cargando...", Toast.LENGTH_SHORT);
+                toast.setGravity(Gravity.CENTER,0,0);
+                toast.show();
+        		
+        		startActivity(new Intent(this, AugmentedRealityActivity.class));
+        	break;
+        	
+        	case R.id.buttonInformation:
+        		buttonInfo.setBackgroundResource(R.drawable.button_state_info);
+        		startActivity(new Intent(this, InfoActivty.class));
+            break;
+        
 		
+		}
+
 	}
 }
 

@@ -933,41 +933,46 @@ containing a value of this type.
         public static final int abs__textfield_searchview_right_holo_dark=0x7f020073;
         public static final int abs__textfield_searchview_right_holo_light=0x7f020074;
         public static final int action_about=0x7f020075;
-        public static final int btn_cab_done_default_thememyapp=0x7f020076;
-        public static final int btn_cab_done_focused_thememyapp=0x7f020077;
-        public static final int btn_cab_done_pressed_thememyapp=0x7f020078;
-        public static final int btn_cab_done_thememyapp=0x7f020079;
-        public static final int button=0x7f02007a;
-        public static final int cab_background_bottom_thememyapp=0x7f02007b;
-        public static final int cab_background_top_thememyapp=0x7f02007c;
-        public static final int cancel=0x7f02007d;
-        public static final int ic_launcher=0x7f02007e;
-        public static final int icon_menu=0x7f02007f;
-        public static final int icon_menu2=0x7f020080;
-        public static final int list_focused_thememyapp=0x7f020081;
-        public static final int menu_dropdown_panel_thememyapp=0x7f020082;
-        public static final int modal=0x7f020083;
-        public static final int pressed_background_thememyapp=0x7f020084;
-        public static final int preview=0x7f020085;
-        public static final int progress_bg_thememyapp=0x7f020086;
-        public static final int progress_horizontal_thememyapp=0x7f020087;
-        public static final int progress_primary_thememyapp=0x7f020088;
-        public static final int progress_secondary_thememyapp=0x7f020089;
-        public static final int selectable_background_thememyapp=0x7f02008a;
-        public static final int social_group=0x7f02008b;
-        public static final int spinner_ab_default_thememyapp=0x7f02008c;
-        public static final int spinner_ab_disabled_thememyapp=0x7f02008d;
-        public static final int spinner_ab_focused_thememyapp=0x7f02008e;
-        public static final int spinner_ab_pressed_thememyapp=0x7f02008f;
-        public static final int spinner_background_ab_thememyapp=0x7f020090;
-        public static final int tab_indicator_ab_thememyapp=0x7f020091;
-        public static final int tab_selected_focused_thememyapp=0x7f020092;
-        public static final int tab_selected_pressed_thememyapp=0x7f020093;
-        public static final int tab_selected_thememyapp=0x7f020094;
-        public static final int tab_unselected_focused_thememyapp=0x7f020095;
-        public static final int tab_unselected_pressed_thememyapp=0x7f020096;
-        public static final int tab_unselected_thememyapp=0x7f020097;
-        public static final int tutorial=0x7f020098;
+        public static final int app_background=0x7f020076;
+        public static final int btn_cab_done_default_thememyapp=0x7f020077;
+        public static final int btn_cab_done_focused_thememyapp=0x7f020078;
+        public static final int btn_cab_done_pressed_thememyapp=0x7f020079;
+        public static final int btn_cab_done_thememyapp=0x7f02007a;
+        public static final int button=0x7f02007b;
+        public static final int button_state=0x7f02007c;
+        public static final int button_state_info=0x7f02007d;
+        public static final int cab_background_bottom_thememyapp=0x7f02007e;
+        public static final int cab_background_top_thememyapp=0x7f02007f;
+        public static final int camara_boton=0x7f020080;
+        public static final int camara_boton_pressed=0x7f020081;
+        public static final int cancel=0x7f020082;
+        public static final int ic_launcher=0x7f020083;
+        public static final int icon_menu=0x7f020084;
+        public static final int info_boton=0x7f020085;
+        public static final int info_boton_pressed=0x7f020086;
+        public static final int list_focused_thememyapp=0x7f020087;
+        public static final int menu_dropdown_panel_thememyapp=0x7f020088;
+        public static final int pressed_background_thememyapp=0x7f020089;
+        public static final int progress_bg_thememyapp=0x7f02008a;
+        public static final int progress_horizontal_thememyapp=0x7f02008b;
+        public static final int progress_primary_thememyapp=0x7f02008c;
+        public static final int progress_secondary_thememyapp=0x7f02008d;
+        public static final int selectable_background_thememyapp=0x7f02008e;
+        public static final int social_group=0x7f02008f;
+        public static final int spinner_ab_default_thememyapp=0x7f020090;
+        public static final int spinner_ab_disabled_thememyapp=0x7f020091;
+        public static final int spinner_ab_focused_thememyapp=0x7f020092;
+        public static final int spinner_ab_pressed_thememyapp=0x7f020093;
+        public static final int spinner_background_ab_thememyapp=0x7f020094;
+        public static final int splash=0x7f020095;
+        public static final int tab_indicator_ab_thememyapp=0x7f020096;
+        public static final int tab_selected_focused_thememyapp=0x7f020097;
+        public static final int tab_selected_pressed_thememyapp=0x7f020098;
+        public static final int tab_selected_thememyapp=0x7f020099;
+        public static final int tab_unselected_focused_thememyapp=0x7f02009a;
+        public static final int tab_unselected_pressed_thememyapp=0x7f02009b;
+        public static final int tab_unselected_thememyapp=0x7f02009c;
+        public static final int tutorial=0x7f02009d;
     }
     public static final class id {
         public static final int about=0x7f04003e;
@@ -1015,14 +1020,14 @@ containing a value of this type.
         public static final int address1=0x7f040033;
         public static final int arelwebview=0x7f040038;
         public static final int button1=0x7f040039;
-        public static final int buttonStart=0x7f040037;
-        public static final int dialog=0x7f040036;
+        public static final int buttonInformation=0x7f040037;
+        public static final int buttonStart=0x7f040036;
+        public static final int dialog=0x7f040035;
         public static final int disableHome=0x7f040009;
         public static final int edit_query=0x7f040027;
         public static final int homeAsUp=0x7f040006;
         public static final int listMode=0x7f040002;
         public static final int main_layout_id=0x7f040034;
-        public static final int modalContainer=0x7f040035;
         public static final int normal=0x7f040001;
         public static final int progress=0x7f04003b;
         public static final int showCustom=0x7f040008;
@@ -1063,13 +1068,11 @@ containing a value of this type.
         public static final int abs__simple_dropdown_hint=0x7f030016;
         public static final int activity_info_activty=0x7f030017;
         public static final int activity_main=0x7f030018;
-        public static final int activity_modal_translucid=0x7f030019;
-        public static final int activity_principal=0x7f03001a;
-        public static final int arelwebview=0x7f03001b;
-        public static final int modal_view=0x7f03001c;
-        public static final int sherlock_spinner_dropdown_item=0x7f03001d;
-        public static final int sherlock_spinner_item=0x7f03001e;
-        public static final int webview=0x7f03001f;
+        public static final int activity_principal=0x7f030019;
+        public static final int arelwebview=0x7f03001a;
+        public static final int sherlock_spinner_dropdown_item=0x7f03001b;
+        public static final int sherlock_spinner_item=0x7f03001c;
+        public static final int webview=0x7f03001d;
     }
     public static final class menu {
         public static final int info_activty=0x7f0b0000;
@@ -1146,7 +1149,7 @@ containing a value of this type.
 
             Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
+            backward-compatibility can go here. in here in here
         
 
         Base application theme for API 11+. This theme completely replaces

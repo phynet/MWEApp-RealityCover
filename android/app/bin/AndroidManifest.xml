@@ -20,7 +20,7 @@
         android:hardwareAccelerated="false"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/Theme.Thememyapp"
+        android:theme="@style/Theme.MyApp"
         android:screenOrientation="portrait" >
         <activity
             android:name="com.phynet.mweapp.AugmentedRealityActivity"

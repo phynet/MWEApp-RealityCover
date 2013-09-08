@@ -10,10 +10,6 @@
     tools:context=".PrincipalActivity">
     
    
-     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    
      <FrameLayout
          android:id="@+id/dialog"
          android:layout_width="match_parent"
@@ -28,12 +24,13 @@
 
          <Button
              android:id="@+id/buttonInformation"
-             android:layout_width="46dp"
-             android:layout_height="47dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
              android:layout_gravity="bottom"
              android:background="@drawable/info_boton"
-             android:onClick="onClickInfo" />
-        
+             android:onClick="onClickInfo"
+             android:padding="18dp" />
+       
      </FrameLayout>
 
 </RelativeLayout>

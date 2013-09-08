@@ -1,7 +1,6 @@
 // Copyright 2007-2012 metaio GmbH. All rights reserved.
 package com.phynet.mweapp;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.res.Configuration;
 import android.hardware.Camera.CameraInfo;
@@ -15,6 +14,7 @@ import android.view.ViewGroup;
 import android.view.ViewGroup.LayoutParams;
 import android.widget.FrameLayout;
 
+import com.actionbarsherlock.app.SherlockActivity;
 import com.metaio.sdk.MetaioDebug;
 import com.metaio.sdk.MetaioSurfaceView;
 import com.metaio.sdk.SensorsComponentAndroid;
@@ -37,8 +37,9 @@ import com.metaio.tools.SystemInfo;
  * @author arsalan.malik
  * 
  */ 
-public abstract class MetaioSDKViewActivity extends Activity implements MetaioSurfaceView.Callback, OnTouchListener
+public abstract class MetaioSDKViewActivity extends SherlockActivity implements MetaioSurfaceView.Callback, OnTouchListener
 {    
+	
 	static 
 	{     
 		IMetaioSDKAndroid.loadNativeLibs();
@@ -397,8 +398,10 @@ public abstract class MetaioSDKViewActivity extends Activity implements MetaioSu
 			// render the the results
 			if (mRendererInitialized)
 				metaioSDK.render();
-
+		
+		        
 		}
+		
 		catch (Exception e)
 		{
 			

@@ -167,8 +167,8 @@ public class AugmentedRealityActivity extends MetaioSDKViewActivity {
 				
 				String trackingConfigFile2 = AssetsManager.getAssetPath("Assets1/TrackingData_MarkerlessFast.xml");
 				boolean result2 = metaioSDK.setTrackingConfiguration(trackingConfigFile2);
-				
 				MetaioDebug.log("DATOS CARGADOSSSSSSSSSSSSSSSSS: " + result2);
+				
 				System.out.println(trackingConfigFile2);
 				
 				
